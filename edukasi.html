@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Pelaporan Penyakit</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+        body {
+            background: linear-gradient(135deg, #2b70c9 0%, #2abeb6 100%);
+            background-attachment: fixed;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body class="min-h-screen p-6 text-[#333333]">
+
+    <div class="max-w-6xl mx-auto mb-8 flex flex-col md:flex-row justify-between items-center bg-white/20 backdrop-blur-md p-4 rounded-[10px] border border-white/30 shadow-lg">
+        <div class="text-center md:text-left mb-4 md:mb-0">
+            <h1 class="text-2xl font-bold text-white tracking-wide m-0">Informasi penyakit</h1>
+            <p class="text-white/90 text-sm mt-1">Kenali gejala dan cara pencegahan penyakit di sekitar kita</p>
+        </div>
+        <a href="index.html" class="bg-white text-[#2b70c9] px-6 py-2.5 rounded-full font-bold text-sm hover:bg-gray-100 transition-all shadow-md no-underline">
+            &larr; Kembali ke Dashboard
+        </a>
+    </div>
+
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 pb-10">
+        
+        <div class="bg-white p-6 rounded-[10px] shadow-xl hover:-translate-y-2 transition-transform duration-300">
+            <div class="flex items-center gap-4 mb-4 border-b-2 border-gray-100 pb-4">
+                <div class="text-5xl">🦟</div>
+                <h2 class="text-2xl font-bold text-[#112338] m-0">Demam Berdarah (DBD)</h2>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-bold text-[#e74c3c] mb-2 text-md">Gejala Umum:</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Demam tinggi mendadak (hingga 40°C).</li>
+                    <li>Nyeri sendi, otot, tulang, dan nyeri di belakang mata.</li>
+                    <li>Muncul bintik-bintik merah pada kulit.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-[#2ecc71] mb-2 text-md">Langkah Pencegahan (3M Plus):</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Menguras & Menutup tempat penampungan air.</li>
+                    <li>Mengubur barang bekas yang bisa menampung air hujan.</li>
+                    <li>Menggunakan kelambu atau lotion anti nyamuk.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-[10px] shadow-xl hover:-translate-y-2 transition-transform duration-300">
+            <div class="flex items-center gap-4 mb-4 border-b-2 border-gray-100 pb-4">
+                <div class="text-5xl">🦠</div>
+                <h2 class="text-2xl font-bold text-[#112338] m-0">Tifus / Tipes</h2>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-bold text-[#e74c3c] mb-2 text-md">Gejala Umum:</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Demam yang meningkat secara bertahap setiap hari (terutama malam).</li>
+                    <li>Nyeri otot, sakit kepala, dan merasa sangat lelah.</li>
+                    <li>Sakit perut, sembelit, atau diare.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-[#2ecc71] mb-2 text-md">Langkah Pencegahan:</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Cuci tangan pakai sabun sebelum makan dan setelah dari toilet.</li>
+                    <li>Hindari jajan sembarangan, pastikan makanan dimasak matang.</li>
+                    <li>Minum air yang sudah direbus matang atau air kemasan terdaftar.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-[10px] shadow-xl hover:-translate-y-2 transition-transform duration-300">
+            <div class="flex items-center gap-4 mb-4 border-b-2 border-gray-100 pb-4">
+                <div class="text-5xl">🚰</div>
+                <h2 class="text-2xl font-bold text-[#112338] m-0">Diare Parah</h2>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-bold text-[#e74c3c] mb-2 text-md">Gejala Umum:</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Buang air besar cair (mencret) lebih dari 3 kali sehari.</li>
+                    <li>Kram perut atau mulas yang kuat.</li>
+                    <li>Dehidrasi (mulut kering, mata cekung, jarang buang air kecil).</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-[#2ecc71] mb-2 text-md">Langkah Pencegahan:</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Jaga kebersihan lingkungan dan sanitasi air.</li>
+                    <li>Pisahkan makanan mentah dan matang saat disimpan.</li>
+                    <li>Bila terkena, segera minum Oralit untuk mengganti cairan tubuh.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="bg-white p-6 rounded-[10px] shadow-xl hover:-translate-y-2 transition-transform duration-300">
+            <div class="flex items-center gap-4 mb-4 border-b-2 border-gray-100 pb-4">
+                <div class="text-5xl">🤧</div>
+                <h2 class="text-2xl font-bold text-[#112338] m-0">Influenza (Flu)</h2>
+            </div>
+            <div class="mb-4">
+                <h3 class="font-bold text-[#e74c3c] mb-2 text-md">Gejala Umum:</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Batuk kering, hidung tersumbat, atau pilek.</li>
+                    <li>Sakit tenggorokan dan sakit kepala ringan.</li>
+                    <li>Demam ringan hingga sedang yang disertai menggigil.</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-bold text-[#2ecc71] mb-2 text-md">Langkah Pencegahan:</h3>
+                <ul class="list-disc pl-5 text-sm leading-relaxed text-gray-600">
+                    <li>Gunakan masker jika sedang sakit atau berada di keramaian.</li>
+                    <li>Terapkan etika batuk dan bersin (tutup dengan tisu/lengan dalam).</li>
+                    <li>Istirahat yang cukup dan perbanyak konsumsi vitamin C.</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
